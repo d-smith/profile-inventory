@@ -1,0 +1,9 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <bean id="profile-reader-impl" class="sample.reader.ProfileReaderImpl"/>
+
+    <service ref="profile-reader-impl" interface="sample.reader.ProfileReader"/>
+
+
+ </blueprint>
